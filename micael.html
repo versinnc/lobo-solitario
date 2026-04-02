@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carros Esportivos</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 30px;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, #ff0000, #ff7300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        padding: 30px;
+    }
+
+    .card {
+        background: #181818;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+        transition: transform 0.4s, box-shadow 0.4s;
+        position: relative;
+    }
+
+    .card:hover {
+        transform: translateY(-10px) scale(1.03);
+        box-shadow: 0 20px 40px rgba(255,0,0,0.3);
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card h3 {
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+
+    .card p {
+        font-size: 0.95rem;
+        color: #ccc;
+    }
+
+    .speed {
+        margin-top: 10px;
+        display: inline-block;
+        padding: 8px 12px;
+        background: linear-gradient(90deg, #ff0000, #ff7300);
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+</style>
+</head>
+
+<body>
+
+<h1>🔥 Carros Esportivos</h1>
+
+<div class="grid-container">
+
+    <div class="card">
+        <img src="https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImkwN210c2h2ZG40aDMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.CXGVwsYl_PI1VJ_Ztacpb5dZPwWT3DWL9LzM6rtdziQ/image;s=5120x0;q=80" alt="Corvette">
+        <div class="card-content">
+            <h3>Corvette C6 ZR1</h3>
+            <p>Supercarro americano com motor V8 extremamente potente.</p>
+            <span class="speed">0–100 km/h: 3,9s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://d2niwqq19lf86s.cloudfront.net/htwritable/media/uploads/galleries/photos/uploads/galleries/11269-leslie-gt500-black/.thumbnails/390E63FD-542B-4EC9-92F3-5C4030C99E87-2.webp/390E63FD-542B-4EC9-92F3-5C4030C99E87-2-tiny-2048x0.webp" alt="Mustang">
+        <div class="card-content">
+            <h3>Mustang Shelby GT500</h3>
+            <p>Muscle car brutal com desempenho impressionante.</p>
+            <span class="speed">0–100 km/h: 3,5s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://www.hdcarwallpapers.com/download/hennessey_chevrolet_camaro_zl1_the_exorcist_final_edition_2023_4k-3840x2160.jpg" alt="Camaro">
+        <div class="card-content">
+            <h3>Camaro ZL1</h3>
+            <p>Potência extrema com design agressivo.</p>
+            <span class="speed">0–100 km/h: 3,5s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://p4.wallpaperbetter.com/wallpaper/745/354/427/yellow-e60-m5-front-view-hd-wallpaper-preview.jpg" alt="BMW">
+        <div class="card-content">
+            <h3>BMW M5 V10</h3>
+            <p>Elegância e potência com motor lendário.</p>
+            <span class="speed">0–100 km/h: 4,7s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/30550072/pexels-photo-30550072/free-photo-of-furacao.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Lamborghini">
+        <div class="card-content">
+            <h3>Lamborghini Huracán</h3>
+            <p>Superesportivo italiano com desempenho incrível.</p>
+            <span class="speed">0–100 km/h: 2,9s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://4kwallpapers.com/images/wallpapers/audi-r8-v10-coupe-3840x2160-13954.jpg" alt="Audi">
+        <div class="card-content">
+            <h3>Audi R8 V10</h3>
+            <p>Luxo, tecnologia e velocidade combinados.</p>
+            <span class="speed">0–100 km/h: 3,2s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg" alt="Ferrari">
+        <div class="card-content">
+            <h3>Ferrari 488 GTB</h3>
+            <p>Supercarro italiano com design icônico e desempenho extremo.</p>
+            <span class="speed">0–100 km/h: 3,0s</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg" alt="Mercedes">
+        <div class="card-content">
+            <h3>Mercedes AMG GT Black Series</h3>
+            <p>Um dos modelos mais agressivos da Mercedes, feito para pistas.</p>
+            <span class="speed">0–100 km/h: 3,2s</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
